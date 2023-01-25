@@ -1,0 +1,184 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	min-height: 100vh;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #333;  /* non full black (unnatural color) color */
+    font-family: monospace;
+}
+header {
+    background-image: linear-gradient(to right, rgb(7,12,59), rgb(50,194,244));
+    max-height: 15%;
+}
+h1 {
+	display: inline-block;
+	margin: 2px 2% 2px 2%;
+	font-size: 3vw;
+	font-family: 'Goblin One', cursive;
+	background-image: -webkit-linear-gradient( #d9db7b, #fdf1fd); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient( #d9db7b, #fdf1fd); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient( #d9db7b, #fdf1fd); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient( #d9db7b, #fdf1fd); /* For old Opera (11.1 to 12.0) */
+    background-image:      linear-gradient( #d9db7b, #fdf1fd); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 2px 2px 4px black;
+}
+/* control width of form */
+form {
+	width: 60%;
+}
+#flex-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+}
+.key-facts {
+	font-family: "Buenos Aires", sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: larger;
+	background-color: rgb(104, 113, 33,0.95);
+	padding: 1%;
+	border-radius: 4px;
+    line-height: 33px;
+}
+/* light blue partial border styling */
+.border-right {
+	border-right: solid 2px rgb(50,194,244);
+	margin-right: 1%;
+	padding-right: 1%;
+    line-height: 17px;
+ }
+.header-pic {
+	display: inline-block;
+	width: 25%;
+	height: 15vh;
+	vertical-align: middle;
+}
+.container {
+	width: 60%;
+	margin-left: 15px;
+	margin-top: 9%;
+}
+/* ----------------------------------------------- container styling ---------------------------------- */
+.main-flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* stadium information and container styling --------------------------------------------------------------------------------- */
+.description {
+	color: #333;
+	font-family: "Buenos Aires", sans-serif; 
+	margin: 2px;
+    font-size: 17px;
+    width: 57%;
+    margin-top: 13px;
+    background-color: yellow;
+    padding: 3%;
+    border-radius: 8px;
+    box-shadow: 5px 6px 7px rgb(7 7 7 / 60%);
+}
+.facts {
+	display: inline;
+	width: 40%;
+}
+.rank {
+	font-size: 500%;
+	color: rgb(50,194,244);
+
+}
+.box {
+    margin: 6%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+}
+.rank {
+	padding: 3%;
+}
+.box-img {
+	display: inline-block;
+    height: 359px;
+    width: 95%;
+    border-radius: 2px;
+    max-width: 845px;
+}
+.pic-title{
+	font-family: 'Anton', sans-serif;
+	font-weight: bolder;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+#top-paragraph {
+	background-color: aqua;
+    padding: 3%;
+    border-radius: 5px;
+    border: solid 1px #333;
+    font-size: 18px;
+	color: blue;
+}
+
+/* like and save image button styling ----------------------------------------*/
+.save-image {
+    position: absolute;
+    top: 11%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #26e620bf;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.like-image {
+    position: absolute;
+    top: 27%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #26e620bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* --------------------------- END ------------------------------------------- */
+
+/* image container styling ------------------------------------------------ */
+.image-wrapper {
+    position: relative;
+}
+#comment {
+    height: 57px;
+
+}
+#feedback-form {
+    padding-top: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+    
