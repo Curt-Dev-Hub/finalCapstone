@@ -30,6 +30,26 @@ Doing this will save the complete webpage on your computer. You can open the HTM
 
 **Doing this more regularly wherever possible can help reduce your carbon footprint! :deciduous_tree::deciduous_tree:**
 
+### Usage
+
+Once you have installed this project locally on your machine you will be able to access all of it's content offline.
+
+If you really like a picture you can click on the green like button on the right hand side of the picture(marked by the red arrow below) the colour of the button should change from green to red to indicate the picture being liked.
+
+
+![image](https://user-images.githubusercontent.com/123427778/215232664-decfa452-bb62-4b83-a6b4-6dc943309f94.png)
+
+You can also take part in a vote, where you can choose your favorite image from the page as you can see below:
+
+
+![image](https://user-images.githubusercontent.com/123427778/215232983-ca68e878-f136-461c-a35d-ad04d1084c77.png)
+
+Before you leave the site be sure to leave a comment or contact me as seen below:
+
+![image](https://user-images.githubusercontent.com/123427778/215233315-1b1b2f64-e951-4ffc-b1a3-19bd854b1aa3.png)
+
+And most of all. Enjoy!
+
 
 ### Credits
 
